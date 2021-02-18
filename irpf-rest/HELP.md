@@ -17,3 +17,9 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
+### mvn test -DPORT=5000
+### mvn spring-boot:run '-Dspring-boot.run.arguments="--server.port=5000"'
+### docker build -t spring-boot-irpf-rest .
+### docker run -e "PORT=5000" -p 5000:5000 -t spring-boot-irpf-rest
+### heroku container:push web
+### heroku container:release web
