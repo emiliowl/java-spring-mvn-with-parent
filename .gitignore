@@ -111,3 +111,5 @@ fabric.properties
 .project
 .settings/
 .vscode/
+**/.idea/
+**/.mvn/
